@@ -1,0 +1,611 @@
+{
+    "clicks": {
+        "tracking": [
+            "application_id",
+            "click_datetime",
+            "click_id",
+            "click_ipv6",
+            "click_timestamp",
+            "click_url_parameters",
+            "click_user_agent",
+            "publisher_id",
+            "publisher_name",
+            "tracker_name",
+            "tracking_id",
+            "touch_type",
+            "is_bot"
+        ],
+        "device": [
+            "city",
+            "country_iso_code",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "oaid",
+            "ios_ifa",
+            "ios_ifv",
+            "os_name",
+            "os_version",
+            "windows_aid"
+        ]
+    },
+    "installations": {
+        "tracking": [
+            "application_id",
+            "installation_id",
+            "attributed_touch_type",
+            "click_datetime",
+            "click_id",
+            "click_ipv6",
+            "click_timestamp",
+            "click_url_parameters",
+            "click_user_agent",
+            "profile_id",
+            "publisher_id",
+            "publisher_name",
+            "tracker_name",
+            "tracking_id"
+        ],
+        "installation": [
+            "install_datetime",
+            "install_ipv6",
+            "install_receive_datetime",
+            "install_receive_timestamp",
+            "install_timestamp",
+            "is_reattribution",
+            "is_reinstallation",
+            "match_type"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "oaid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "os_name",
+            "os_version",
+            "windows_aid"
+        ],
+        "app": [
+            "app_package_name",
+            "app_version_name"
+        ]
+    },
+    "postbacks": {
+        "tracking": [
+            "application_id",
+            "attributed_touch_type",
+            "click_datetime",
+            "click_id",
+            "click_ipv6",
+            "click_timestamp",
+            "click_url_parameters",
+            "click_user_agent",
+            "profile_id",
+            "publisher_id",
+            "publisher_name",
+            "tracker_name",
+            "tracking_id"
+        ],
+        "installation": [
+            "install_datetime",
+            "install_ipv6",
+            "install_timestamp",
+            "match_type",
+            "identifier"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "country_iso_code",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "oaid",
+            "ios_ifa",
+            "ios_ifv",
+            "os_name",
+            "os_version",
+            "windows_aid"
+        ],
+        "app": [
+            "app_package_name",
+            "app_version_name"
+        ],
+        "event": [
+            "conversion_datetime",
+            "conversion_timestamp",
+            "event_name"
+        ],
+        "postback": [
+            "attempt_datetime",
+            "attempt_timestamp",
+            "cost_model (postback_type)",
+            "notifying_status",
+            "postback_url",
+            "postback_url_parameters",
+            "response_body",
+            "response_code"
+        ]
+    },
+    "events": {
+        "event": [
+            "event_datetime",
+            "event_json",
+            "event_name",
+            "event_receive_datetime",
+            "event_receive_timestamp",
+            "event_timestamp",
+            "session_id",
+            "installation_id"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "original_device_model",
+            "os_name",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name",
+            "application_id"
+        ]
+    },
+    "ecommerce_events": {
+        "purchase": [
+            "ecom_type",
+            "ecom_screen_name",
+            "ecom_screen_search_query",
+            "ecom_screen_payload",
+            "ecom_screen_category_path_1",
+            "ecom_screen_category_path_2",
+            "ecom_screen_category_path_3",
+            "ecom_screen_category_path_4",
+            "ecom_screen_category_path_5",
+            "ecom_screen_category_path_6",
+            "ecom_screen_category_path_7",
+            "ecom_screen_category_path_8",
+            "ecom_screen_category_path_9",
+            "ecom_screen_category_path_10",
+            "ecom_product_name",
+            "ecom_product_sku",
+            "ecom_product_promocodes",
+            "ecom_product_payload",
+            "ecom_product_category_path_1",
+            "ecom_product_category_path_2",
+            "ecom_product_category_path_3",
+            "ecom_product_category_path_4",
+            "ecom_product_category_path_5",
+            "ecom_product_category_path_6",
+            "ecom_product_category_path_7",
+            "ecom_product_category_path_8",
+            "ecom_product_category_path_9",
+            "ecom_product_category_path_10",
+            "ecom_product_actual_price_fiat_unit_type",
+            "ecom_product_actual_price_fiat_value",
+            "ecom_product_actual_price_internal_components",
+            "ecom_product_original_price_fiat_unit_type",
+            "ecom_product_original_price_fiat_value",
+            "ecom_product_original_price_internal_components",
+            "ecom_cart_item_price_fiat_unit_type",
+            "ecom_cart_item_price_fiat_value",
+            "ecom_cart_item_quantity",
+            "ecom_cart_item_internal_components",
+            "ecom_referrer_type",
+            "ecom_referrer_id",
+            "ecom_order_id",
+            "ecom_order_payload"
+        ],
+        "event": [
+            "event_datetime",
+            "event_name",
+            "event_receive_datetime",
+            "event_receive_timestamp",
+            "event_timestamp",
+            "session_id",
+            "installation_id",
+            "certificate_verification_status"
+        ],
+        "device": [
+            "android_id",
+            "appmetrica_device_id",
+            "appmetrica_sdk_version",
+            "country",
+            "district",
+            "area",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "event_source",
+            "event_datetime",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "original_device_model",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name"
+        ]
+    },
+    "profiles_v2": {
+        "user_attributes": [
+            "profile_id",
+            "appmetrica_gender",
+            "appmetrica_birth_date",
+            "appmetrica_notifications_enabled",
+            "appmetrica_name"
+        ],
+        "system_attributes": [
+            "appmetrica_crashes",
+            "appmetrica_errors",
+            "appmetrica_first_session_date",
+            "appmetrica_last_start_date",
+            "appmetrica_push_opens",
+            "appmetrica_push_send_count",
+            "appmetrica_sdk_version",
+            "appmetrica_sessions"
+        ],
+        "device": [
+            "android_id",
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "os_name",
+            "os_version",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_framework",
+            "app_package_name",
+            "app_version_name"
+        ]
+    },
+    "revenue_events": {
+        "revenue": [
+            "revenue_quantity",
+            "revenue_price",
+            "revenue_currency",
+            "revenue_product_id",
+            "revenue_order_id",
+            "revenue_order_id_source",
+            "is_revenue_verified",
+            "is_revenue_autocollected",
+            "revenue_inapp_type",
+            "revenue_event_type"
+        ],
+        "event": [
+            "event_datetime",
+            "event_name",
+            "event_receive_datetime",
+            "event_receive_timestamp",
+            "event_timestamp",
+            "session_id",
+            "installation_id"
+        ],
+        "device": [
+            "android_id",
+            "appmetrica_device_id",
+            "appmetrica_sdk_version",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "event_datetime",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "original_device_model",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name"
+        ]
+    },
+    "deeplinks": {
+        "tracking": [
+            "deeplink_url_host",
+            "deeplink_url_parameters",
+            "deeplink_url_path",
+            "deeplink_url_scheme",
+            "event_datetime",
+            "event_receive_datetime",
+            "event_receive_timestamp",
+            "event_timestamp",
+            "is_reengagement",
+            "profile_id",
+            "publisher_id",
+            "publisher_name",
+            "session_id",
+            "tracker_name",
+            "tracking_id"
+        ],
+        "device": [
+            "android_id",
+            "appmetrica_device_id",
+            "appmetrica_sdk_version",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "original_device_model",
+            "os_version",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name"
+        ]
+    },
+    "push_tokens": {
+        "push_tokens": [
+            "token",
+            "token_datetime",
+            "token_receive_datetime",
+            "token_receive_timestamp",
+            "token_timestamp"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "os_name",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_package_name",
+            "app_version_name",
+            "application_id"
+        ]
+    },
+    "crashes": {
+        "app_crash": [
+            "crash",
+            "crash_datetime",
+            "crash_group_id",
+            "crash_id",
+            "crash_name",
+            "crash_receive_datetime",
+            "crash_receive_timestamp",
+            "crash_timestamp"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "os_name",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_package_name",
+            "app_version_name",
+            "application_id"
+        ]
+    },
+    "errors": {
+        "app_errors": [
+            "error",
+            "error_datetime",
+            "error_id",
+            "error_name",
+            "error_receive_datetime",
+            "error_receive_timestamp",
+            "error_timestamp"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "os_name",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_package_name",
+            "app_version_name",
+            "application_id"
+        ]
+    },
+    "sessions_starts": {
+        "session": [
+            "session_id",
+            "session_start_datetime",
+            "session_start_receive_datetime",
+            "session_start_receive_timestamp",
+            "session_start_timestamp"
+        ],
+        "device": [
+            "appmetrica_device_id",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "original_device_model",
+            "os_name",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name",
+            "application_id"
+        ]
+    },
+    "ad_revenue_events": {
+        "ad_revenue": [
+            "ad_revenue_datetime",
+            "ad_revenue_timestamp",
+            "ad_revenue_receive_datetime",
+            "ad_revenue_receive_timestamp",
+            "ad_revenue",
+            "ad_revenue_currency",
+            "ad_revenue_type",
+            "ad_revenue_data_source",
+            "ad_revenue_network",
+            "ad_revenue_placement_id",
+            "ad_revenue_placement_name",
+            "ad_revenue_unit_id",
+            "ad_revenue_unit_name",
+            "ad_revenue_precision",
+            "ad_revenue_payload"
+        ],
+        "event": [
+            "session_id",
+            "installation_id"
+        ],
+        "device": [
+            "android_id",
+            "appmetrica_device_id",
+            "appmetrica_sdk_version",
+            "city",
+            "connection_type",
+            "country_iso_code",
+            "device_ipv6",
+            "device_locale",
+            "device_manufacturer",
+            "device_model",
+            "device_type",
+            "google_aid",
+            "ios_ifa",
+            "ios_ifv",
+            "mcc",
+            "mnc",
+            "operator_name",
+            "original_device_model",
+            "os_version",
+            "profile_id",
+            "windows_aid"
+        ],
+        "app": [
+            "app_build_number",
+            "app_package_name",
+            "app_version_name"
+        ]
+    }
+}
