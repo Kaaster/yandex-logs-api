@@ -24,7 +24,6 @@ class YandexMetricaLogsAPI:
         self.counter_id = counter_id
         self.headers = {
             'Accept': 'application/json',
-            'Content-Encoding': 'gzip',
             'Authorization': f'OAuth {access_token}',
         }
 
