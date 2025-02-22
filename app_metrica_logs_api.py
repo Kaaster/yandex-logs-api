@@ -67,12 +67,12 @@ class AppMetricaLogsAPI:
         for _ in range(100):
             result = self.get_logrequest(params=params, source=source, output_type=output_type, timeout=timeout)
             result_status_code = result.status_code
+            print(result_status_code)
 
             if result_status_code == 202:
-                print(result_status_code)
-                time_sleep(sleep_sec)  
+                time_sleep(sleep_sec)
+                continue
             elif result_status_code == 200:
-                print(result_status_code)
                 date_since = params.get('date_since', '')
                 date_until = params.get('date_until', '')
                 filename = f'{source}_{date_since}_{date_until}.{output_type}'
@@ -84,9 +84,6 @@ class AppMetricaLogsAPI:
                 else:
                     print('result doesnt save to file')
                 
-                break
-            else:
-                print(result_status_code)
-                break
+            break
         
         return result.headers
